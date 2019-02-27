@@ -1,0 +1,34 @@
+{
+	"CHANNEL_ID": "-1",
+	"GAME_START_UP": "start",
+	"CHANNEL_TYPE": "tx",
+	"PLATFORM": "msdk",
+	"GAME_VERSION": "1.6.0.0",
+	"GAME_VERSION_CODE": "195253",
+	"RESOURCE_LOADER": "AssetBundle",
+	"RESOURCE_ENCRY": "0",
+	"NEED_UPDATE": "0",
+	"SUB_PACKAGE_STRATEGY": "0",
+	"BUILD_CLIENT_MODE": "1",
+	"OPEN_GM_CONSLOE": "1",
+	"SERVER_CONFIG_URL": "http://gplayer.xxyjol.qq.com:30090/gplayer.cgi?cmd=",
+	"IS_OPEN_LOG": "true",
+	"GAME_LOG_SAVE_IMMEDIATELY": "false",
+	"GAME_LOG_CONSOLE": "Info|Warning|Error|Assert|Exception|Debug",
+	"GAME_LOG_FILE": "Info|Warning|Error|Assert|Exception|UnityException|Debug",
+	"GAME_LOG_TOSERVER": "Info|Warning|Error|Assert|Exception|UnityException|Debug",
+	"MOBILE_CONFIG":
+	{
+		"IosLevel": [
+			{"id": "defaultHigh", "condition": "IphoneType#>=#IPHONE_7%IpadType#>=#IPAD_PRO_1_129"},
+			{"id": "defaultMiddle", "condition": "IphoneType#>=#IPHONE_6S%IpadType#>=#IPAD_AIR_2"},
+			{"id": "defaultLow", "condition": "Ram#>=#1"},
+			{"id": "defaultVeryLow", "condition": "-1"}],
+		"AndroidLevel": [
+			{"id": "defaultHigh", "condition": "CpuCount#>=#4|CpuGuz#>#1.6|Ram#>=#2.3|GpuName#!=#Mali-T624|GpuName#!=#Adreno (TM) 506"},
+			{"id": "defaultMiddle", "condition": "CpuCount#>=#4|CpuGuz#>#1.4|Ram#>=#2"},
+			{"id": "defaultLow", "condition": "Ram#>=#1"},
+			{"id": "defaultVeryLow", "condition": "-1"}],
+		"GPUDivece": ["Apple A9 GPU", "Apple A10 GPU", "Apple A11 GPU", "Apple A8X GPU", "Apple A9X GPU"]
+	}
+}
