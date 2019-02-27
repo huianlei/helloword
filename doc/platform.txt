@@ -3,7 +3,7 @@
 	"GAME_START_UP": "start",
 	"CHANNEL_TYPE": "tx",
 	"PLATFORM": "msdk",
-	"GAME_VERSION": "1.6.0.0",
+	"GAME_VERSION": "1.8.1.0",
 	"GAME_VERSION_CODE": "195253",
 	"RESOURCE_LOADER": "AssetBundle",
 	"RESOURCE_ENCRY": "0",
