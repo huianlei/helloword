@@ -4,6 +4,7 @@
 	"CHANNEL_TYPE": "tx",
 	"PLATFORM": "msdk",
 	"GAME_VERSION": "1.8.1.0",
+	"MODE": "debug",
 	"GAME_VERSION_CODE": "195253",
 	"RESOURCE_LOADER": "AssetBundle",
 	"RESOURCE_ENCRY": "0",
